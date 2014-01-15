@@ -23,6 +23,7 @@ body {
 	transition: all 300ms 0ms ease-in;
 	position: relative;
 	opacity: 1;
+	transition: all 300ms 0ms ease-in;
 }
 .post:before, .post:after {
 	content: "";

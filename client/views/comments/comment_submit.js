@@ -7,7 +7,7 @@ Template.commentSubmit.events({
 			postId: template.data._id
 		};
 
-		Meteor.call('comment', comment, function(error, commentId){
+		Meteor.call('comment', comment, function(error, commentId) {
 			error && throwError(error.reason);
 		});
 	}
