@@ -7,7 +7,24 @@
 </template>
 
 <template name="postsList">
-	<div class="posts">
+	<div class="hero-unit">
+		<div class="container">
+			<div class="span4">
+				<h1>Welcome!</h1>
+       			<p class="lead">Here is my website :)</p>
+       			<img src="selfie.jpg" alt="selfie" class="img-circle">
+			</div>
+       		<div class="span6">
+       			<p>
+       				My name is Sergiy Dybksiy. I am a student at Univerty of Toronto, taking Computer Science.
+       				In my free time I enjoy snowboarding, coding, and staying as social as possible. Below you will 
+       				find a little blog I like to keep. Feel free to sign up and leave some comments or find me on 
+       				my social networks. If you are looking to hire me, my resume is somewhere on here as well :)
+       			</p>
+       		</div> 
+		</div>
+ 	</div>
+	<div class="posts">	
 		{{#each postsWithRank}}
 			{{> postItem}}
 		{{/each}}
