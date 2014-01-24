@@ -2,6 +2,7 @@ Meteor.Router.add({
 	'/': {to: 'newPosts', as: 'home'},
 	'/top': 'topPosts',
 	'/new': 'newPosts',
+	'/contact': 'contact',
 
 	'/posts/:_id': {
 		to: 'postPage',
